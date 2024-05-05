@@ -1,7 +1,7 @@
-//install mongoose because it is the library that we are using to connect to the mongoDb database
+
 
 const mongoose = require("mongoose")
-mongoose.connect("mongodb+srv://admin:apsqJyzNfPViAKAR@userdata.fqrofnj.mongodb.net/")
+mongoose.connect("");
 const {Schema} = mongoose;
 
 // define schema for user credentials
