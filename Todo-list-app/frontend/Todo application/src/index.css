@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checkbox-custom {
+    appearance: none;
+    width: 1.25rem; /* 20px */
+    height: 1.25rem; /* 20px */
+    background-color: #f3f4f6; /* bg-gray-200 */
+    border: 2px solid #d1d5db; /* border-gray-300 */
+    border-radius: 0.25rem; /* rounded */
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+  }
+  
+  .checkbox-custom:checked {
+    background-color: black; /* Change the background color when checked */
+    border-color: black; /* Change the border color when checked */
+  }
+
+  .taskBox{
+    border-bottom: 2px solid gray;
+  }
