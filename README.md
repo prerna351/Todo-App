@@ -12,7 +12,6 @@ This is a simple todo application built using backend tools: Express.js, Node.js
 
 - **Todo Management**:
   - Users can create new todo tasks with titles and descriptions.
-  - Todo tasks can be updated with new titles or descriptions.
   - Completed todos can be marked as complete and deleted from the list.
 
 ## Technologies Used
@@ -29,10 +28,10 @@ This is a simple todo application built using backend tools: Express.js, Node.js
 
 1. Sign up for a new account using the `/signUp` endpoint.
 2. Sign in with your credentials using the `/signIn` endpoint.
-3. Create new todos using the `/newTodos` endpoint.
-4. View todos using the ` /myTodos ` endpoint.
-5. Mark todo as complete using the ` /updateTodos ` endpoint.
-6. Delete todos using the ` /removeTodo ` endpoint.
+3. Create new todos using the `/createTodo` endpoint.
+4. View todos using the ` /mytodo ` endpoint.
+5. Mark todo as complete using the ` /updateTodo ` endpoint.
+6. Delete todos using the ` /deleteTodo ` endpoint.
 
 ## Contributing
 
